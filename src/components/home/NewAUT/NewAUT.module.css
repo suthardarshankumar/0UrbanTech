@@ -1,0 +1,49 @@
+.container {
+    width: 100vw;
+    padding: 7vh 5vw;
+}
+
+.heading {
+    font-family: "Nunito", sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+    color: #171717;
+    margin-bottom: 5vh;
+}
+
+.letters {
+    font-family: "Major Mono Display", monospace;
+    font-size: 5vh;
+    color: #171717;
+}
+
+.new-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-row:hover>.img:not(:hover) {
+    filter: grayscale(100%) blur(2px);
+    transform: scale(0.95);
+}
+
+.img {
+    transition: 0.4s;
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+.big-banner-img {
+    width: 40vw;
+    height: 42vh;
+    border-radius: 1vw;
+}
+
+.small-banner-img {
+    width: 24vw;
+    height: 42vh;
+    border-radius: 1vw;
+}

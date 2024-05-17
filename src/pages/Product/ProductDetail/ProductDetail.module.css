@@ -1,0 +1,260 @@
+.container {
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 5vh 5vw;
+    display: flex;
+}
+
+.left {
+    width: 50vw;
+    display: flex;
+}
+
+.imgSideBarContain {
+    width: 4vw;
+}
+
+.imgSideBar {
+    width: 100%;
+    height: 7.5vh;
+    border: 0.1vh solid #171717;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.imgSideBar:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.mainImgContain {
+    width: 46vw;
+    height: 84vh;
+    padding: 0 1vw;
+}
+
+.mainImg {
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    width: 40vw;
+    padding: 0 1.5vw;
+}
+
+.productName {
+    color: #171717;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 3.5vh;
+}
+
+.priceRow {
+    font-family: "Roboto Condensed", sans-serif;
+    border-top: 0.1vw solid lightgray;
+    border-bottom: 0.1vw solid lightgray;
+    margin-top: 3vh;
+    padding: 3vh 0;
+    font-size: 3.5vh;
+    color: #171717;
+}
+
+.mrpPrice {
+    margin-top: 1vh;
+    color: #17171791;
+    font-size: 1.7vh;
+}
+
+.realPrice {
+    text-decoration: line-through;
+}
+
+.tax {
+    color: #171717;
+    font-size: 2vh;
+    margin-top: 1vh;
+    font-weight: 400;
+}
+
+.sizeContainer {
+    margin-top: 2vh;
+}
+
+.heading {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 350;
+    font-size: 2.3vh;
+}
+
+.sizeNumberContain {
+    margin-top: 1.5vh;
+}
+
+.sizeNumber {
+    color: #171717;
+    font-size: 2.3vh;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 350;
+    padding: 1vh 1vw;
+    border: 0.1vh solid lightgray;
+    margin: 1vh 1.5vw 1vh 0;
+}
+
+.sizeNumber:hover {
+    border: 0.1vh solid #4385F5;
+    outline: 0.1vh solid #4385F5;
+}
+
+.colorContainer {
+    margin-top: 3vh;
+}
+
+.colorContain {
+    margin-top: 1.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.colorImg {
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid #0d1717;
+    border-radius: 7px;
+    transition: 0.4s ease-in-out;
+}
+
+.colorImg:hover {
+    transform: scale(1.1);
+}
+
+.btnSection,
+.buyBtnSection {
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.btnContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    background-color: #f2f2f2;
+    border-radius: 2vw;
+}
+
+.buyBtnContain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.minusBtn,
+.addBtn {
+    padding: 1.5vh 1.5vw;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showQuantity {
+    text-align: center;
+    width: 2vw;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.minusIcon,
+.addIcon {
+    font-size: 2.5vh;
+}
+
+.buyBtn {
+    width: 49%;
+    padding: 1.7vh 0;
+    font-size: 2.5vh;
+    font-family: "Roboto Condensed", sans-serif;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    border: none;
+    border-radius: 1vh;
+    color: #f2f2f2;
+    background-color: #0d1717;
+    cursor: pointer;
+}
+
+.buyBtn:hover {
+    background: linear-gradient(150deg, #FF7E22, #FF5722);
+    transform: translateY(-5px);
+}
+
+.serviceContainer {
+    margin-top: 3vh;
+    padding: 2vh 2vw;
+    margin-bottom: 3vh;
+}
+
+.serviceRow {
+    width: 100%;
+    display: flex;
+}
+
+.iconContainer {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.5vh 0;
+}
+
+.icon {
+    font-size: 4vh;
+    color: #FF7E22;
+}
+
+.detailContainer {
+    padding: 1.5vh 0;
+    width: 85%;
+}
+
+.top {
+    border-top: 0.1vh solid lightgray;
+    border-left: 0.1vh solid lightgray;
+    border-right: 0.1vh solid lightgray;
+    border-top-left-radius: 0.3vw;
+    border-top-right-radius: 0.3vw;
+}
+
+.bottom {
+    border: 0.1vh solid lightgray;
+    border-bottom-left-radius: 0.3vw;
+    border-bottom-right-radius: 0.3vw;
+}
+
+.headingCS,
+.para {
+    font-family: "Open Sans", sans-serif;
+}
+
+.headingCS {
+    font-weight: 600;
+}
+
+.para {
+    margin-top: 0.5vh;
+    font-weight: 400;
+    color: #171717;
+    opacity: 0.7;
+    font-size: 1.8vh;
+}
+
+.para:hover {
+    text-decoration: underline;
+}
+
+.detailSpan {
+    text-decoration: underline;
+}

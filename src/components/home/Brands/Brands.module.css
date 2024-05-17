@@ -1,0 +1,28 @@
+.container {
+    width: 100vw;
+    padding: 7vh 5vw;
+}
+
+.heading {
+    font-family: "Nunito", sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+    color: #171717;
+    margin-bottom: 5vh;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+.img {
+    width: 8vw;
+    height: 15vh;
+}
